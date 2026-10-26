@@ -3,7 +3,7 @@
 For each listing: predict occupancy at a grid of candidate prices (with all other
 features fixed) and pick the price maximising expected revenue = price * occupancy.
 
-IMPORTANT caveats (put these in the README):
+Caveats (also stated in the README):
   * Occupancy is a proxy (see data.occupancy_proxy), not observed bookings.
   * Observational data: the model learns correlations between price and occupancy
     across *different* listings, which is not the same as the causal effect of changing
