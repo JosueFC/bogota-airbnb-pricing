@@ -1,4 +1,4 @@
-"""End-to-end run: python -m src.run --listings data/raw/listings.csv.gz"""
+"""End-to-end run: python -m src.run --listings raw/listings.csv.gz --group-by host"""
 from __future__ import annotations
 
 import argparse
