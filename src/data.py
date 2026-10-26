@@ -72,7 +72,7 @@ def clean_listings(df: pd.DataFrame) -> pd.DataFrame:
 def occupancy_proxy(df: pd.DataFrame) -> pd.Series:
     """Occupancy proxy in [0, 1].
 
-    Neither signal is observed bookings, so use the best available one and say so in the README:
+    Neither signal is observed bookings, so use the best available one (documented in the README):
       1. estimated_occupancy_l365d / 365 if the scrape provides it. Inside Airbnb derives it from
          REVIEW counts (50% review rate x average stay, capped at 70%), so a listing with no recent
          reviews is ~0% by construction.
