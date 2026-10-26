@@ -1,7 +1,7 @@
 """Exploratory data analysis: six figures that justify the modelling choices made later.
 
-    python -m src.eda --listings data/raw/listings.csv.gz --reports reports \
-        --source "Inside Airbnb, Bogotá, scraped YYYY-MM"
+    python -m src.eda --listings raw/listings.csv.gz --reports reports \
+        --source "Inside Airbnb, Bogotá, scraped 2026-09"
 
 Each figure answers one design question:
   00a  Why model log price and trim the tails?        -> price distribution, raw vs. log
